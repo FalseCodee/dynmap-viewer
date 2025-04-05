@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dynmapnametags",
+  "version": "${version}",
+  "name": "Dynmap Nametags",
+  "description": "",
+  "authors": ["FalseCode"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dynmapnametags/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "dynmapnametags.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.11",
+    "minecraft": "1.21.4"
+  }
+}

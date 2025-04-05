@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.falsecode.dynmapnametags.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "GameRendererAccessorMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "MinecraftClientMixin"
+  ]
+}
